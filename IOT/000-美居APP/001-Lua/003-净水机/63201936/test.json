@@ -1,0 +1,31 @@
+{
+  "deviceSpec": {
+    "reportOnChange": true,
+    "partialCommand": true,
+    "deviceType": "",
+    "modelSN8": "",
+    "modelA0": "",
+    "modelName": "",
+    "deviceSubType": "0"
+  },
+  "cases": [
+    {
+      "description": " ",
+      "type": "hex2json",
+      "input": "AA,33,ED,00,00,00,00,00,00,04,01,01,01,20,10,00,00,25,01,00,00,00,00,00,10,20,2A,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,06,00,38,00,00,EC",
+      "output": "{\"status\":{\"version\":1,\"power\":\"on\",\"heat\":\"off\",\"heat_status\":\"off\",\"cool\":\"off\",\"cool_status\":\"off\",\"filter\":\"on\",\"wash\":\"off\",\"overtime_error\":\"on\",\"lock\":\"off\",\"tds_error\":\"on\",\"heat_temperature\":0,\"cool_temperature\":0,\"filter_1\":0,\"filter_2\":0,\"filter_3\":0,\"filter_4\":0,\"filter_5\":0,\"life_1\":42,\"life_2\":0,\"life_3\":0,\"life_4\":0,\"life_5\":0,\"in_tds\":6,\"out_tds\":56,\"water_litre\":293,\"rfid_error\":\"on\",\"lack_water\":\"off\",\"drainage\":\"off\",\"uv_sterilize\":\"off\",\"error_code\":0}}",
+      "passed": "NOT_TESTED",
+      "uuid": "37823760-3a3b-4ab7-84bb-a2605452a01a",
+      "debug": ""
+    },
+    {
+      "description": " ",
+      "type": "hex2json",
+      "input": "AA,33,ED,00,00,00,00,00,00,03,01,01,01,20,10,00,00,25,01,00,00,00,00,00,10,20,2A,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,06,00,38,00,00,EC",
+      "output": "{\"status\":{\"version\":1,\"power\":\"on\",\"heat\":\"off\",\"heat_status\":\"off\",\"cool\":\"off\",\"cool_status\":\"off\",\"filter\":\"on\",\"wash\":\"off\",\"overtime_error\":\"on\",\"lock\":\"off\",\"tds_error\":\"on\",\"heat_temperature\":0,\"cool_temperature\":0,\"filter_1\":0,\"filter_2\":0,\"filter_3\":0,\"filter_4\":0,\"filter_5\":0,\"life_1\":42,\"life_2\":0,\"life_3\":0,\"life_4\":0,\"life_5\":0,\"in_tds\":6,\"out_tds\":56,\"water_litre\":293,\"rfid_error\":\"on\",\"lack_water\":\"off\",\"drainage\":\"off\",\"uv_sterilize\":\"off\",\"error_code\":0}}",
+      "passed": "NOT_TESTED",
+      "uuid": "e42f3de1-348c-4f49-aca1-e8e76ae81d40",
+      "debug": ""
+    }
+  ]
+}
